@@ -67,6 +67,8 @@
     border: 0;
 }
 
+/* header section end */
+
 /* navigation section */
 .navigation {
     border: 1px solid #e0e0e0;
@@ -141,3 +143,61 @@
 .bar-btn i {
     padding: 5px;
 }
+
+/* navigation section end */
+
+/* Ad section */
+.ad-section {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 2px solid #9e9e9e;
+}
+
+.ad-section .banner {
+    width: 970px;
+    height: 90px;
+    position: relative;
+}
+
+.ad-section .ad-btn {
+    position: absolute;
+    top: 1px;
+    border: 0;
+    font-size: 11px;
+    background-color: #ffffff;
+    padding-bottom: 1px !important;
+}
+
+.ad-section .btn-wrapper:hover .ad-hover {
+    display: block;
+}
+
+.ad-section .google-play-btn {
+    color: #6fc4eb;
+    padding: 0 3px;
+    right: 18px;
+}
+
+.ad-section .ellipsis-btn {
+    right: 1.5px;
+    padding: 0px 6.5px;
+}
+
+.ad-hover {
+    display: none;
+    position: absolute;
+    top: 1px;
+    right: 35px;
+    background-color: #d3d3d3;
+    font-size: 10px;
+    height: 17px;
+    padding: 0px 6px;
+    font-weight: bold;
+    font-family: serif;
+    cursor: pointer;
+    border-bottom-left-radius: 5px;
+}
+
+/* Ad section end */
