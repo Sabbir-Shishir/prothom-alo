@@ -46,15 +46,21 @@
     color: #0573E6;
 }
 
-.header-post .post img {
-    width: 65px;
-    height: 65px;
+.img-hover-zoom {
+    width: 92px;
     margin-right: 10px;
     cursor: pointer;
+    overflow: hidden;
 }
 
-.header-post .post img:hover {
-    transform: scale(1.01);
+.img-hover-zoom img {
+    transition: transform .1s ease;
+    width: 65px;
+    height: 65px;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.1);
 }
 
 .header-post .post i {
