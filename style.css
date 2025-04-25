@@ -207,3 +207,48 @@
 }
 
 /* Ad section end */
+
+/* Main content section */
+.main-content-section {
+    margin: 25px 0;
+}
+
+.column {
+    border-right: 2px solid #9e9e9e;
+}
+
+.column:last-child {
+    border: 0;
+}
+
+.main-content-section .content {
+    display: flex;
+}
+
+.main-content-section .content a {
+    text-decoration: none;
+    color: #212121;
+    font-weight: 600;
+    font-family: fantasy;
+    font-size: 14px;
+    transition: all ease-in-out .1s;
+}
+
+.main-content-section .content a:hover .title-wrapper {
+    color: #0573E6;
+}
+
+.main-content-section .content a .first-child {
+    color: #d60000;
+}
+
+.main-content-section .content a .bullet {
+    color: #949494;
+    margin: 0 2px;
+}
+
+.main-content-section .content img {
+    height: 66.25px;
+}
+
+/* Main content section end */
